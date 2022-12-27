@@ -1,0 +1,517 @@
+@font-face {
+  font-family: "dm-sans-400";
+  font-weight: 400;
+  src: url("./fonts/DMSans-Regular.ttf");
+}
+@font-face {
+  font-family: "dm-sans-700";
+  font-weight: 700;
+  src: url("./fonts/DMSans-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #191919;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 43px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.header-img {
+  margin-left: 50px;
+  margin-right: 797px;
+  margin-bottom: 83px;
+}
+
+.header-a {
+  font-family: "dm-sans-400";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-right: 40px;
+  transition: all 0.5s linear;
+}
+
+.header-a:hover {
+  color: #118da8;
+}
+
+.top-img {
+  position: relative;
+}
+
+.sticks-1 {
+  position: absolute;
+  left: 84px;
+  top: 135px;
+}
+
+.left {
+  margin-left: 70px;
+}
+
+.right-left {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 100px;
+}
+
+.right-h1 {
+  margin-top: 290px;
+  width: 526px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+  color: #ffffff;
+}
+
+.stick-text {
+  position: relative;
+  display: flex;
+  gap: 25px;
+}
+
+.stick-y {
+  position: absolute;
+  top: 628px;
+}
+
+.next-text {
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+  color: #ffffff;
+}
+
+.level-text {
+  font-family: "dm-sans-700";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+  color: #ffffff;
+}
+
+.listen-text {
+  margin-top: 90px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.apps {
+  display: flex;
+  gap: 16px;
+}
+
+.app {
+  cursor: pointer;
+}
+
+.episod-text-button {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.episode-text {
+  margin-right: 609px;
+  margin-left: 70px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  color: #ffffff;
+}
+
+.episode-button {
+  padding: 12px 15px 12px 20px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+  background: #118da8;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.episode-button:hover {
+  color: black;
+  background-color: dimgray;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 260px;
+}
+
+.card {
+  background-color: black;
+  display: flex;
+  gap: 53px;
+}
+
+.card-img {
+  margin-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.card-button {
+  margin-top: 48px;
+  padding: 2px 15px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  background: #191919;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 48px;
+}
+
+.card-p {
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #118da8;
+  margin-bottom: 18px;
+}
+
+.card-h1 {
+  width: 701px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: 2.56px;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.card-p-2 {
+  width: 757px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 18px;
+}
+
+.card-button-2 {
+  padding: 12px 15px 12px 20px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  background: #118da8;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.card-button-2:hover {
+  color: black;
+  background-color: dimgray;
+}
+
+.left-right-2 {
+  display: flex;
+  gap: 94px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 201px;
+}
+
+.left-2 {
+  margin-left: 70px;
+}
+
+.strelka {
+  padding: 30px;
+  color: white;
+  background: #118da8;
+  border-radius: 400px;
+  margin-bottom: 20px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+
+.strelka:hover {
+  color: black;
+  background-color: dimgray;
+}
+
+.left-p-2 {
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #118da8;
+  margin-bottom: 20px;
+}
+
+.left-h1-2 {
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.left-p-3 {
+  width: 556px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 33px;
+}
+
+.left-p-4 {
+  width: 528px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.middle-card {
+  position: relative;
+  padding: 60px 60px 100px 60px;
+  background-color: black;
+  display: flex;
+  gap: 277px;
+  margin-bottom: 200px;
+}
+
+.middle-p {
+  margin-left: 70px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #118da8;
+}
+
+.middle-h1 {
+  margin-left: 70px;
+  width: 431px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  color: #ffffff;
+}
+
+.middle-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-input {
+  padding: 15px 238px 15px 15px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+  outline: none;
+  background: #191919;
+  border: 1px solid #191919;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.middle-button {
+  padding: 9px 19px 10px 19px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+  background: #118da8;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.middle-button:hover {
+  color: black;
+  background-color: dimgray;
+}
+
+.stick-x {
+  position: absolute;
+  top: 4515px;
+  left: 10px;
+}
+
+.footer-cards {
+  margin-bottom: 200px;
+  margin-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-card {
+  width: 423px;
+  height: 280px;
+  background-color: black;
+}
+
+.star-icons {
+  padding-top: 54px;
+  padding-left: 50px;
+  margin-bottom: 21px;
+}
+
+.footer-h2 {
+  margin-left: 50px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+  margin-bottom: 19px;
+}
+
+.footer-p {
+  margin-left: 50px;
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 239px;
+}
+
+.end-card {
+  display: flex;
+  margin-bottom: 127px;
+}
+
+.social-instagram {
+  margin-top: 25px;
+  margin-left: 70px;
+  display: flex;
+  gap: 17px;
+}
+
+.end-p {
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-right: 120px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.end-p:hover{
+    color: #118DA8;
+}
+
+.end-p-2 {
+  font-family: "dm-sans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.end-p-2:hover{
+    color: #118DA8;
+}
+
+.end-text {
+  margin-left: 70px;
+}
+
+.end-instagram {
+  cursor: pointer;
+  margin-right: 17px;
+}
+
+.end-icon{
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.end-icon:hover{
+    color: #118DA8;
+}
